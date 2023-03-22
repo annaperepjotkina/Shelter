@@ -84,6 +84,7 @@ body {
 .main_container {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .not_only_wrapper {
@@ -137,7 +138,7 @@ body {
 .not_only_button {
   width: 207px;
   height: 52px;
-  border: 2px solid #F1CDB3;
+  border: 2px solid #f1cdb3;
   border-radius: 100px;
   font-family: "Georgia";
   font-style: normal;
@@ -149,13 +150,66 @@ body {
 }
 
 .not_only_button:hover {
-    cursor: pointer;
-    background: #F1CDB3;
-    transition: 1s;
+  cursor: pointer;
+  background: #f1cdb3;
+  transition: 1s;
 }
 
 .not_only_img {
   width: 698px;
   height: 728px;
   margin-left: 42px;
+}
+
+.about_wrapper {
+  width: 100%;
+  height: 588px;
+  background: #ffffff;
+  display: flex;
+  
+}
+
+.about_container {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  height: 408px;
+  margin: 80px 40px 100px 40px;
+}
+
+.about_img {
+  width: 300px;
+  height: 408px;
+}
+
+.about_content {
+  width: 430px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_heading {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 0px;
+  width: 370px;
+height: 90px;
+}
+
+.about_subheading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4c4c4c;
+  margin-top: 10px;
+  width: 430px;
+height: 144px;
 }
