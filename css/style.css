@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ html {
+    scroll-behavior: smooth;
+ }
+body {
+     margin: 0px;
+  padding: 0px;
+ }
+.header {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  left: 40px;
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #f1cdb3;
+}
+
+.logo_subtitle {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.nav_menu {
+  width: 443px;
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav_link {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #cdcdcd;
+}
+
+.nav_link:hover,
+.nav_link:active,
+.nav_link:focus {
+  border-bottom: #f1cdb3 solid 3px;
+  transition: 0.3s;
+}
+
+.main_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.not_only_container {
+  width: 100%;
+  height: 908px;
+  background: url(noise_lines_transparent@2X.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+}
