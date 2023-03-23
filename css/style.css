@@ -4,10 +4,12 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 .header {
   position: absolute;
@@ -166,7 +168,6 @@ body {
   height: 588px;
   background: #ffffff;
   display: flex;
-  
 }
 
 .about_container {
@@ -199,7 +200,7 @@ body {
   color: #545454;
   margin-top: 0px;
   width: 370px;
-height: 90px;
+  height: 90px;
 }
 
 .about_subheading {
@@ -211,5 +212,133 @@ height: 90px;
   color: #4c4c4c;
   margin-top: 10px;
   width: 430px;
-height: 144px;
+  height: 144px;
+}
+
+.our_friends_wrapper {
+  width: 100%;
+  height: 877px;
+  background: #f6f6f6;
+  display: flex;
+    align-items: center;
+}
+
+.our_friends_container {
+  width: 100%;
+  height: 697px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_friends_heading {
+  width: 400px;
+  height: 90px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.our_friends_slider {
+  display: flex;
+  width: 1200px;
+  height: 435px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto;
+}
+
+.slider_button {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+
+}
+
+.slider_button:hover,
+.slider_button:active,
+.slider_button:focus {
+background-color: #FDDCC4;
+transition: 1s;
+cursor: pointer;
+}
+
+
+.slider_card {
+  width: 270px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider_card:hover {
+    transition: 2s;
+    transform: scale(1.2);
+    
+}
+
+.slider_card_text {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.slider_card_button {
+  width: 187px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+}
+
+.slider_card_button:hover,
+.slider_card_button:active,
+.slider_card_button:focus {
+background-color: #FDDCC4;
+width: 215px;
+transition: 1s;
+}
+
+.our_friends_button {
+    width: 261px;
+height: 52px;
+background: #F1CDB3;
+border-radius: 100px;
+border: 0px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #292929;
+cursor: pointer;
+}
+
+.our_friends_button:hover {
+    transition: 2s;
+    background: #eeb48b;
+    border: 2px #726f6f;
+    width: 288px;
 }
