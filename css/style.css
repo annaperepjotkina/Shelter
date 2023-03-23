@@ -99,7 +99,7 @@ body {
 }
 
 .not_only_container {
-  width: 1200px;
+  width: 100%;
   height: 728px;
   display: flex;
   flex-direction: row;
@@ -173,7 +173,7 @@ body {
 .about_container {
   display: flex;
   justify-content: space-around;
-  width: 1200px;
+  width: 100%;
   height: 408px;
   margin: 80px 40px 100px 40px;
 }
@@ -359,8 +359,8 @@ body {
 }
 
 .help_heading {
-    width: 308px;
-height: 90px;
+  width: 308px;
+  height: 90px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -375,41 +375,191 @@ height: 90px;
 }
 
 .help_list {
-    width: 1026px;
-height: 281px;
-display: flex;
-flex-direction: column;
+  width: 1026px;
+  height: 281px;
+  display: flex;
+  flex-direction: column;
 }
 
 .list_row1 {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .list_row2 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto 84px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 84px;
 }
 
 .help_list_item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .help_svg {
-    width: 60px;
-height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .item_text {
-    font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 115%;
-letter-spacing: 0.06em;
-color: #545454;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.in_addition_wrapper {
+  width: 100%;
+  height: 462px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in_addition_container {
+  width: 915px;
+  height: 282px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.donation_dog {
+  width: 505px;
+  height: 261px;
+}
+
+.in_addition_content {
+  width: 380px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.in_addition_heading {
+  width: 300px;
+  height: 90px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0px;
+}
+
+.in_addition_subheading {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.credit_card {
+  width: 349px;
+  height: 43px;
+  background: #f1cdb3;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card_number {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.in_addition_inform {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #b2b2b2;
+}
+
+.footer_wrapper {
+  width: 100%;
+  height: 350px;
+  background: url(noise_lines_transparent@2X.png),
+    radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
+    #211f20;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container {
+  width: 100%;
+  height: 310px;
+  padding: 40px 40px 0px 40px;
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+}
+
+.footer_contacts {
+    width: 302px;
+height: 234px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_heading {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.contact_mail {
+}
+
+.contact_phone {}
+
+.contact_text {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #f1cdb3;
+}
+
+.footer_location {
+    width: 302px;
+height: 234px;
+}
+
+.footer_img {
+  width: 300px;
+  height: 310px;
 }
