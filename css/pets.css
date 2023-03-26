@@ -84,11 +84,128 @@ line-height: 160%;
 color: #545454;
 }
 
+.nav_link_active {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+  color: #545454;
+  border-bottom: #f1cdb3 solid 3px;
+}
+
 .nav_link:hover,
 .nav_link:active,
 .nav_link:focus {
   border-bottom: #f1cdb3 solid 3px;
   transition: 0.3s;
+}
+
+.our_friends_wrapper {
+  width: 100%;
+  height: 1342px;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our_friends_container {
+  width: 1200px;
+  height: 1162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_friends_heading {
+  width: 400px;
+  height: 90px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.our_friends_cards {
+  width: 1200px;
+  height: 930px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.slider_card {
+  width: 270px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider_card:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.slider_card_text {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.card_button {
+  width: 187px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+}
+
+.card_button:hover {
+  background-color: #fddcc4;
+  width: 215px;
+  transition: 1s;
+}
+
+.slider_button {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+}
+
+.slider_button_active {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  background-color: #F1CDB3;
+}
+
+.slider_button:hover,
+.slider_button:active {
+  background-color: #F1CDB3;
 }
 
 .footer_wrapper {

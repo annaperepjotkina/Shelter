@@ -84,6 +84,18 @@ body {
   color: #cdcdcd;
 }
 
+.nav_link_active {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #cdcdcd;
+  border-bottom: #f1cdb3 solid 3px;
+}
+
 .nav_link:hover,
 .nav_link:active,
 .nav_link:focus {
@@ -340,6 +352,12 @@ body {
   letter-spacing: 0.06em;
   color: #292929;
   cursor: pointer;
+  
+}
+
+.our_friends_button_link {
+  text-decoration: none;
+  color: #292929;
 }
 
 .our_friends_button:hover {
@@ -359,7 +377,7 @@ body {
 }
 
 .help_container {
-  width: 100%;
+  max-width: 1200px;
   height: 431px;
   display: flex;
   flex-direction: column;
