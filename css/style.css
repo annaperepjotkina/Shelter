@@ -67,6 +67,7 @@ body {
 }
 
 .nav_list {
+  padding: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,7 +112,7 @@ color: #cdcdcd;
 }
 .not_only_wrapper {
   width: 100%;
-  height: 908px;
+  height: 911px;
   background: url(noise_lines_transparent@2X.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
   display: flex;
@@ -130,7 +131,7 @@ color: #cdcdcd;
 .not_only_text {
   display: flex;
   flex-direction: column;
-  margin-top: 163px;
+  margin-top: 166px;
 }
 
 .not_only_heading {
@@ -169,6 +170,10 @@ color: #cdcdcd;
   font-size: 17px;
   line-height: 130%;
   letter-spacing: 0.06em;
+}
+
+.not_only_button_link {
+  text-decoration: none;
   color: #292929;
 }
 
@@ -516,6 +521,11 @@ color: #cdcdcd;
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
+  
+}
+
+.card_number_link {
+  text-decoration: none;
   color: #545454;
 }
 
@@ -591,6 +601,11 @@ color: #cdcdcd;
   font-size: 20px;
   line-height: 115%;
   letter-spacing: 0.06em;
+  color: #f1cdb3;
+}
+
+.contact_link {
+  text-decoration: none;
   color: #f1cdb3;
 }
 

@@ -50,6 +50,11 @@ body {
   color: #545454;
 }
 
+.logo_link {
+  text-decoration: none;
+  color: #545454;
+}
+
 .logo_subtitle {
   font-family: "Arial";
   font-style: normal;
@@ -76,22 +81,22 @@ body {
 .nav_link {
   text-decoration: none;
   cursor: pointer;
-  font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 160%;
-color: #545454;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
 }
 
 .nav_link_active {
   text-decoration: none;
   cursor: pointer;
-  font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 160%;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
   color: #545454;
   border-bottom: #f1cdb3 solid 3px;
 }
@@ -200,12 +205,12 @@ line-height: 160%;
   height: 52px;
   border: 2px solid #f1cdb3;
   border-radius: 100px;
-  background-color: #F1CDB3;
+  background-color: #f1cdb3;
 }
 
 .slider_button:hover,
 .slider_button:active {
-  background-color: #F1CDB3;
+  background-color: #f1cdb3;
 }
 
 .footer_wrapper {
@@ -269,6 +274,11 @@ line-height: 160%;
   font-size: 20px;
   line-height: 115%;
   letter-spacing: 0.06em;
+  color: #f1cdb3;
+}
+
+.contact_link {
+  text-decoration: none;
   color: #f1cdb3;
 }
 
