@@ -5,7 +5,6 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  
 }
 body {
   margin: 0px;
@@ -88,12 +87,12 @@ body {
 .nav_link_active {
   text-decoration: none;
   cursor: pointer;
-  font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 160%;
-color: #cdcdcd;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #cdcdcd;
   border-bottom: #f1cdb3 solid 3px;
 }
 
@@ -112,7 +111,7 @@ color: #cdcdcd;
 }
 .not_only_wrapper {
   width: 100%;
-  height: 911px;
+  height: 908px;
   background: url(noise_lines_transparent@2X.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
   display: flex;
@@ -131,7 +130,7 @@ color: #cdcdcd;
 .not_only_text {
   display: flex;
   flex-direction: column;
-  margin-top: 166px;
+  margin-top: 164px;
 }
 
 .not_only_heading {
@@ -148,7 +147,7 @@ color: #cdcdcd;
 }
 
 .not_only_subheading {
-  margin: 26px 0px;
+  margin: 27px 0px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -258,7 +257,6 @@ color: #cdcdcd;
   height: 697px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -270,11 +268,16 @@ color: #cdcdcd;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
+  margin: 0px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #545454;
+}
+
+.heading_friends {
+  margin-bottom: 53px;
 }
 
 .our_friends_slider {
@@ -283,10 +286,11 @@ color: #cdcdcd;
   height: 435px;
   justify-content: space-between;
   align-items: center;
-  margin: 60px auto;
+  margin: 34px auto 75px auto;
 }
 
 .slider_button {
+  margin-top: 33px;
   width: 52px;
   height: 52px;
   border: 2px solid #f1cdb3;
@@ -314,6 +318,17 @@ color: #cdcdcd;
   transform: scale(1.2);
 }
 
+.card_img {
+  margin-bottom: 10px;
+}
+
+.card_inform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .slider_card_text {
   font-family: "Georgia";
   font-style: normal;
@@ -335,6 +350,7 @@ color: #cdcdcd;
   font-size: 17px;
   line-height: 130%;
   color: #292929;
+  margin-top: 9px;
 }
 
 .slider_card_button:hover {
@@ -357,7 +373,6 @@ color: #cdcdcd;
   letter-spacing: 0.06em;
   color: #292929;
   cursor: pointer;
-  
 }
 
 .our_friends_button_link {
@@ -387,7 +402,6 @@ color: #cdcdcd;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .help_heading {
@@ -401,9 +415,10 @@ color: #cdcdcd;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   color: #545454;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 .help_list {
@@ -421,7 +436,7 @@ color: #cdcdcd;
 .list_row2 {
   display: flex;
   justify-content: space-between;
-  margin: auto 84px;
+  margin: 55px 84px 0px 84px;
 }
 
 .help_list_item {
@@ -437,6 +452,7 @@ color: #cdcdcd;
 }
 
 .item_text {
+  padding-top: 30px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -472,12 +488,12 @@ color: #cdcdcd;
   height: 282px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .in_addition_heading {
   width: 300px;
-  height: 90px;
+  height: 73px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -500,6 +516,7 @@ color: #cdcdcd;
   align-items: center;
   letter-spacing: 0.06em;
   color: #545454;
+  margin: 22px 0px 11px 0px;
 }
 
 .credit_card {
@@ -521,7 +538,6 @@ color: #cdcdcd;
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
-  
 }
 
 .card_number_link {
@@ -548,12 +564,12 @@ color: #cdcdcd;
     #211f20;
   display: flex;
   justify-content: center;
+  align-items: end;
 }
 
 .footer_container {
   width: 1200px;
   height: 310px;
-  padding: 40px 40px 0px 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -561,10 +577,10 @@ color: #cdcdcd;
 
 .footer_contacts {
   width: 302px;
-  height: 234px;
+  height: 261px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer_heading {
@@ -592,6 +608,7 @@ color: #cdcdcd;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 13px;
 }
 
 .contact_text {
@@ -611,26 +628,28 @@ color: #cdcdcd;
 
 .footer_location {
   width: 302px;
-  height: 234px;
+  height: 261px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 4px;
+  margin-right: 18px;
 }
 
 .contact_boston {
   width: 302px;
   height: 46px;
   display: flex;
-  
   align-items: center;
+  padding-top: 12px;
 }
 
 .contact_london {
   width: 302px;
   height: 46px;
   display: flex;
-  
   align-items: center;
+  padding-top: 10px;
 }
 
 .location_img {
