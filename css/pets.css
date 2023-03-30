@@ -39,6 +39,7 @@ body {
 }
 
 .logo_title {
+  margin: 1px 0px 8px 0px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -226,6 +227,13 @@ body {
   border: 2px solid #f1cdb3;
   border-radius: 100px;
   background-color: #f1cdb3;
+}
+
+.slider_button_unactive {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
 }
 
 .slider_button:hover,
