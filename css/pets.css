@@ -39,6 +39,7 @@ body {
 }
 
 .logo_title {
+  margin: 1px 0px 8px 0px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
