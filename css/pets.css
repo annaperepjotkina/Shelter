@@ -239,6 +239,7 @@ body {
 .slider_button:hover,
 .slider_button:active {
   background-color: #f1cdb3;
+  transition: 1s;
 }
 
 .footer_wrapper {

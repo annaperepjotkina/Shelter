@@ -38,6 +38,7 @@ body {
 }
 
 .logo_title {
+  margin: 0px 0px 2px 1px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -50,6 +51,7 @@ body {
 }
 
 .logo_subtitle {
+  margin: 4px 4px 0px 4px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
