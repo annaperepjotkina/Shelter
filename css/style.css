@@ -438,17 +438,6 @@ body {
   justify-content: center;
 }
 
-.list_row1 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.list_row2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 55px 84px 0px 84px;
-}
-
 .help_list_item {
   display: flex;
   flex-direction: column;
