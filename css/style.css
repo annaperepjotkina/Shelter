@@ -149,7 +149,7 @@ body {
 }
 
 .not_only_subheading {
-  margin: 27px 0px;
+  margin: 26px 0px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -163,6 +163,9 @@ body {
 .not_only_button {
   width: 207px;
   height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid #f1cdb3;
   border-radius: 100px;
   font-family: "Georgia";
@@ -171,16 +174,15 @@ body {
   font-size: 17px;
   line-height: 130%;
   letter-spacing: 0.06em;
-}
-
-.not_only_button_link {
   text-decoration: none;
   color: #292929;
+  background-color: #f1cdb3;
+  cursor: pointer;
 }
 
 .not_only_button:hover {
   cursor: pointer;
-  background: #f1cdb3;
+  background: #ddbaa1;
   transition: 1s;
 }
 
@@ -305,6 +307,11 @@ body {
   cursor: pointer;
 }
 
+.slider_container {
+  display: flex;
+  gap: 90px;
+}
+
 .slider_card {
   width: 270px;
   height: 435px;
@@ -351,11 +358,13 @@ body {
   font-weight: 400;
   font-size: 17px;
   line-height: 130%;
+  letter-spacing: 0.06em;
   color: #292929;
   margin-top: 9px;
 }
 
 .slider_card_button:hover {
+  cursor: pointer;
   background-color: #fddcc4;
   width: 215px;
   transition: 1s;
@@ -375,11 +384,10 @@ body {
   letter-spacing: 0.06em;
   color: #292929;
   cursor: pointer;
-}
-
-.our_friends_button_link {
   text-decoration: none;
-  color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .our_friends_button:hover {
@@ -424,10 +432,10 @@ body {
 }
 
 .help_list {
-  width: 1026px;
-  height: 281px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 55px 120px;
+  justify-content: center;
 }
 
 .list_row1 {
@@ -444,8 +452,9 @@ body {
 .help_list_item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 30px;
   align-items: center;
+  cursor: pointer;
 }
 
 .help_svg {
@@ -454,7 +463,6 @@ body {
 }
 
 .item_text {
-  padding-top: 30px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -661,4 +669,83 @@ body {
 .footer_img {
   width: 300px;
   height: 310px;
+}
+
+@media screen and (max-width: 1270px) {
+  .header {
+    width: 708px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .not_only_wrapper {
+    width: 100%;
+    height: 1165px;
+  }
+
+  .not_only_container {
+    width: 569px;
+    height: 1165px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .not_only_text {
+    width: 459px;
+    margin-top: 151px;
+  }
+
+  .not_only_button {
+    margin-left: 125px;
+  }
+
+  .not_only_img {
+    width: 569px;
+    height: 593px;
+    margin-left: 42px;
+  }
+
+  .about_wrapper {
+    width: 100%;
+    height: 1048px;
+  }
+
+  .about_container {
+    width: 437px;
+    height: 868px;
+    flex-wrap: wrap-reverse;
+    margin: 60px 40px 100px 40px;
+  }
+
+  .about_img {
+    padding-top: 40px;
+    margin-right: 0px;
+  }
+
+  .our_friends_container {
+    width: 708px;
+    height: 697px;
+  }
+
+  .help_wrapper {
+    width: 100%;
+    height: 779px;
+  }
+
+  .help_container {
+    width: 630px;
+    height: 599px;
+  }
+
+  .help_list {
+    width: 630px;
+    height: 449px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
