@@ -136,6 +136,7 @@ body {
 }
 
 .not_only_heading {
+  margin: 0px;
   width: 310px;
   height: 114px;
   font-family: "Georgia";
@@ -149,7 +150,7 @@ body {
 }
 
 .not_only_subheading {
-  margin: 26px 0px;
+  margin: 41px 0px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -272,16 +273,13 @@ body {
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
-  margin: 0px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #545454;
-}
-
-.heading_friends {
-  margin-bottom: 53px;
+  margin: 0px;
+  padding-bottom: 18px;
 }
 
 .our_friends_slider {
@@ -425,10 +423,10 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.056em;
   color: #545454;
-  margin-bottom: 50px;
-  padding-bottom: 15px;
+  margin: 0px 0px 50px 0px;
+    padding-bottom: 19px;
 }
 
 .help_list {
