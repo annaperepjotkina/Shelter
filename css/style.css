@@ -188,8 +188,7 @@ body {
 }
 
 .not_only_img {
-  width: 698px;
-  height: 728px;
+  width: 100%;
   margin-left: 42px;
 }
 
@@ -291,7 +290,8 @@ body {
   margin: 34px auto 75px auto;
 }
 
-.slider_button {
+.slider_button_1,
+.slider_button_2 {
   margin-top: 33px;
   width: 52px;
   height: 52px;
@@ -299,13 +299,15 @@ body {
   border-radius: 100px;
 }
 
-.slider_button:hover {
+.slider_button_2 .slider_button:hover {
   background-color: #fddcc4;
   transition: 1s;
   cursor: pointer;
 }
 
-.slider_container {
+.our_friends_cards {
+  width: 990px;
+  overflow: hidden;
   display: flex;
   gap: 90px;
 }
@@ -658,7 +660,7 @@ body {
   height: 310px;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1279px) {
   .header {
     width: 708px;
     height: 60px;
@@ -691,9 +693,8 @@ body {
   }
 
   .not_only_img {
-    width: 569px;
-    height: 593px;
-    margin-left: 42px;
+    margin-left: 136px;
+    margin-top: 93px;
   }
 
   .about_wrapper {
@@ -716,6 +717,17 @@ body {
   .our_friends_container {
     width: 708px;
     height: 697px;
+  }
+
+  .our_friends_slider {
+    width: 708px;
+    height: 435px;
+    margin: 34px auto 75px auto;
+  }
+
+  .our_friends_cards {
+    width: 583px;
+    gap: 42px;
   }
 
   .help_wrapper {
@@ -753,6 +765,7 @@ body {
 
   .donation_dog {
     padding-bottom: 11px;
+    height: 270px;
   }
 
   .footer_wrapper {
@@ -775,7 +788,7 @@ body {
   .footer_location {
     padding-top: 2px;
     width: 303px;
- margin: 0px;
+    margin: 0px;
   }
 
   .footer_heading {
@@ -784,5 +797,270 @@ body {
 
   .footer_img {
     padding-top: 27px;
+  }
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 280px;
+    height: 60px;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+
+  .not_only_wrapper {
+    height: 822px;
+  }
+
+  .not_only_container {
+    width: 300px;
+    height: 673px;
+  }
+
+  .not_only_text {
+    align-items: center;
+  }
+
+  .not_only_heading {
+    letter-spacing: 0.06em;
+    width: 255px;
+    height: 64px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .not_only_subheading {
+    width: 300px;
+    text-align: center;
+  }
+
+  .not_only_button {
+    margin: 0px;
+  }
+
+  .not_only_img {
+    width: 87%;
+    margin-top: 105px;
+    margin-left: 38px;
+  }
+
+  .about_wrapper {
+    height: 974px;
+  }
+
+  .about_container {
+    width: 300px;
+    height: 890px;
+    margin: 54px 40px 100px 47px;
+  }
+
+  .about_content {
+    align-items: center;
+    width: 300px;
+    height: 494px;
+  }
+
+  .about_heading {
+    width: 293px;
+    height: 64px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .about_subheading {
+    width: 300px;
+    text-align: justify;
+    padding: 1px 19px 0px 11px;
+    margin: 11px 2px 9px 2px;
+  }
+
+  .about_img {
+    width: 89%;
+    padding-right: 6px;
+    padding-bottom: 13px;
+  }
+
+  .our_friends_wrapper {
+    height: 791px;
+  }
+
+  .our_friends_container {
+    width: 300px;
+    height: 707px;
+  }
+
+  .our_friends_heading {
+    width: 286px;
+    font-size: 25px;
+    padding-bottom: 24px;
+  }
+
+  .our_friends_slider {
+    margin: 2px;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 507px;
+  }
+
+  .slider_button_1 {
+    order: 2;
+    margin: 37px 0px 20px 43px;
+  }
+
+  .slider_button_2 {
+    order: 3;
+    margin: 37px 43px 20px 3px;
+  }
+
+  .our_friends_cards {
+    width: 270px;
+  }
+
+  .our_friends_button {
+    margin-top: 58px;
+  }
+
+  .help_wrapper {
+    height: 745px;
+  }
+
+  .help_container {
+    width: 290px;
+    height: 728px;
+  }
+
+  .help_heading {
+    font-size: 25px;
+    padding: 47px 20px 3px 22px;
+  }
+
+  .help_list {
+    width: 290px;
+    height: 555px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 25px 31px;
+  }
+
+  .help_list_item {
+    gap: 12px;
+  }
+
+  .help_svg {
+    width: 50px;
+  }
+
+  .item_text {
+    font-size: 15px;
+    line-height: 115%;
+  }
+
+  .in_addition_wrapper {
+    height: 543px;
+  }
+
+  .in_addition_container {
+    width: 300px;
+    height: 542px;
+  }
+
+  .in_addition_content {
+    align-items: center;
+    width: 300px;
+    height: 281px;
+    padding-top: 43px;
+  }
+
+  .donation_dog {
+    width: 86%;
+    height: 32%;
+    padding-bottom: 43px;
+  }
+
+  .in_addition_heading {
+    width: 215px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .in_addition_subheading {
+    font-size: 14px;
+    letter-spacing: 0.036em;
+    line-height: 160%;
+    margin: 20px 0px 21px 0px;
+  }
+
+  .credit_card {
+    justify-content: center;
+    width: 281px;
+height: 43px;
+  }
+
+  .card_number {
+    font-size: 15px;
+    padding: 24px 4px 23px 14px;
+  }
+
+  .in_addition_inform {
+    text-align: justify;
+    width: 275px;
+    margin-top: 20px;
+  }
+
+  .footer_wrapper {
+    height: 809px;
+  }
+
+  .footer_container {
+    width: 300px;
+height: 809px;
+flex-direction: column;
+  }
+
+  .footer_contacts {
+    width: 278px;
+    height: 246px;
+    padding: 8px 2px 2px 25px;
+    text-align: center;
+  }
+
+  .footer_location {
+    width: 300px;
+height: 222px;
+padding: 16px 4px 2px 6px;
+    text-align: center;
+  }
+
+  .footer_heading {
+    font-size: 25px;
+  }
+
+  .contact_phone {
+    width: 244px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+  }
+
+  .contact_text {
+    padding-left: 3px;
+  }
+
+  .contact_boston {
+padding: 1px 1px 1px 1px ;
+  }
+
+  .contact_london {
+    padding: 1px 1px 1px 1px ;
+  }
+  .location_img {
+    margin-right: 0px;
+  }
+
+  .footer_img {
+    width: 94%;
+    height: 40%;
+    padding: 58px 2px 0px 20px;
+  }
 }
