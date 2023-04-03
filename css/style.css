@@ -582,7 +582,18 @@ body {
   justify-content: space-around;
 }
 
-.footer_heading {
+.footer_heading_1 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.footer_heading_2 {
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -791,7 +802,11 @@ body {
     margin: 0px;
   }
 
-  .footer_heading {
+  .footer_heading_1 {
+    padding-bottom: 5px;
+  }
+
+  .footer_heading_2 {
     padding-bottom: 5px;
   }
 
@@ -995,7 +1010,7 @@ body {
   .credit_card {
     justify-content: center;
     width: 281px;
-height: 43px;
+    height: 43px;
   }
 
   .card_number {
@@ -1015,52 +1030,55 @@ height: 43px;
 
   .footer_container {
     width: 300px;
-height: 809px;
-flex-direction: column;
+    height: 809px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_heading_1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .footer_heading_2 {
+    font-size: 25px;
+    width: 232px;
+    text-align: center;
   }
 
   .footer_contacts {
     width: 278px;
     height: 246px;
-    padding: 8px 2px 2px 25px;
-    text-align: center;
+    align-items: center;
   }
 
   .footer_location {
     width: 300px;
-height: 222px;
-padding: 16px 4px 2px 6px;
-    text-align: center;
+    height: 232px;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .footer_heading {
-    font-size: 25px;
+  .contact_mail {
+    padding-bottom: 3px;
   }
-
   .contact_phone {
-    width: 244px;
-    padding-bottom: 2px;
-    padding-left: 5px;
-  }
-
-  .contact_text {
-    padding-left: 3px;
+    padding: 0px;
   }
 
   .contact_boston {
-padding: 1px 1px 1px 1px ;
+    padding-top: 0px;
+    padding-bottom: 2px;
   }
 
   .contact_london {
-    padding: 1px 1px 1px 1px ;
-  }
-  .location_img {
-    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
   }
 
   .footer_img {
-    width: 94%;
-    height: 40%;
-    padding: 58px 2px 0px 20px;
+    width: 260px;
+    height: 269px;
   }
 }
