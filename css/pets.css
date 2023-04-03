@@ -269,7 +269,18 @@ body {
   justify-content: space-around;
 }
 
-.footer_heading {
+.footer_heading_1 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.footer_heading_2 {
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -348,5 +359,225 @@ body {
 }
 
 @media screen and (max-width: 1270px) {
-  
+  .header {
+    width: 708px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .not_only_wrapper {
+    width: 100%;
+    height: 1165px;
+  }
+
+  .not_only_container {
+    width: 569px;
+    height: 1165px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .our_friends_wrapper {
+    width: 100%;
+    height: 1733px;
+  }
+
+  .our_friends_container {
+    width: 708px;
+    height: 1603px;
+  }
+
+  .our_friends_heading {
+    padding: 32px 0px 0px 0px;
+  }
+
+  .our_friends_cards {
+    width: 580px;
+    height: 1365px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 46px;
+    margin-bottom: 41px;
+    gap: 30px 0px;
+    overflow: hidden;
+  }
+
+  .footer_wrapper {
+    width: 100%;
+    height: 639px;
+  }
+
+  .footer_container {
+    padding-top: 15px;
+    width: 708px;
+    height: 691px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .footer_contacts {
+    width: 279px;
+  }
+
+  .footer_location {
+    padding-top: 2px;
+    width: 303px;
+    margin: 0px;
+  }
+
+  .footer_heading_1 {
+    padding-bottom: 5px;
+  }
+
+  .footer_heading_2 {
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 280px;
+    height: 60px;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+
+  .burger_menu {
+    margin-top: 20px;
+    width: 30px;
+height: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+cursor: pointer;
+  }
+
+  .burger_line_1, .burger_line_2, .burger_line_3 {
+border: 1px solid rgba(0, 0, 0, 1);
+  }
+
+  .not_only_wrapper {
+    height: 822px;
+  }
+
+  .not_only_container {
+    width: 300px;
+    height: 673px;
+  }
+
+  .not_only_text {
+    align-items: center;
+  }
+
+  .not_only_heading {
+    letter-spacing: 0.06em;
+    width: 255px;
+    height: 64px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .not_only_subheading {
+    width: 300px;
+    text-align: center;
+  }
+
+  .our_friends_wrapper {
+    height: 1649px;
+  }
+
+  .our_friends_container {
+    width: 300px;
+    height: 1565px;
+  }
+
+  .our_friends_heading {
+    width: 286px;
+    font-size: 25px;
+    padding-bottom: 24px;
+    padding-top: 0px;
+  }
+
+  .our_friends_cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 1365px;
+    margin-top: 16px;
+  }
+
+  .cards_navigation {
+    width: 300px;
+    height: 52px;
+  }
+
+  .footer_wrapper {
+    height: 809px;
+  }
+
+  .footer_container {
+    width: 300px;
+    height: 815px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .footer_heading_1 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  .footer_heading_2 {
+    font-size: 25px;
+    width: 232px;
+    text-align: center;
+  }
+
+  .footer_contacts {
+    width: 278px;
+    height: 246px;
+    align-items: center;
+    padding-bottom: 8px;
+  }
+
+  .footer_location {
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4px;
+  }
+
+  .contact_mail {
+    padding-bottom: 26px;
+  }
+  .contact_phone {
+    padding-bottom: 6px;
+    padding-top: 0px;
+  }
+
+  .contact_boston {
+    padding-top: 0px;
+    padding-bottom: 11px;
+  }
+
+  .contact_london {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .footer_img {
+    padding: 0px;
+    width: 260px;
+    height: 269px;
+  }
 }
