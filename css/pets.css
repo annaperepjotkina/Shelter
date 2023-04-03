@@ -414,7 +414,7 @@ body {
   .footer_container {
     padding-top: 15px;
     width: 708px;
-    height: 625px;
+    height: 691px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -437,10 +437,6 @@ body {
   .footer_heading_2 {
     padding-bottom: 5px;
   }
-
-  .footer_img {
-    padding-top: 33px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -451,6 +447,20 @@ body {
 
   .nav_menu {
     display: none;
+  }
+
+  .burger_menu {
+    margin-top: 20px;
+    width: 30px;
+height: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+cursor: pointer;
+  }
+
+  .burger_line_1, .burger_line_2, .burger_line_3 {
+border: 1px solid rgba(0, 0, 0, 1);
   }
 
   .not_only_wrapper {

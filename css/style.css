@@ -681,6 +681,10 @@ body {
     justify-content: space-between;
   }
 
+  .burger_menu {
+    display: none;
+  }
+
   .not_only_wrapper {
     width: 100%;
     height: 1165px;
@@ -715,13 +719,15 @@ body {
 
   .about_container {
     width: 437px;
-    height: 868px;
+    height: 888px;
     flex-wrap: wrap-reverse;
-    margin: 60px 40px 100px 40px;
+    margin: 70px 40px 100px 40px;
   }
 
   .about_img {
-    padding-top: 40px;
+    width: 300px;
+    height: 468px;
+    padding-top: 58px;
     margin-right: 0px;
   }
 
@@ -811,7 +817,7 @@ body {
   }
 
   .footer_img {
-    padding-top: 27px;
+    margin-top: 52px;
   }
 }
 
@@ -823,6 +829,22 @@ body {
 
   .nav_menu {
     display: none;
+  }
+
+  .burger_menu {
+    margin-top: 20px;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .burger_line_1,
+  .burger_line_2,
+  .burger_line_3 {
+    border: 1px solid #f1cdb3;
   }
 
   .not_only_wrapper {
@@ -874,7 +896,8 @@ body {
   .about_content {
     align-items: center;
     width: 300px;
-    height: 494px;
+    height: 452px;
+    margin-bottom: 50px;
   }
 
   .about_heading {
@@ -892,9 +915,12 @@ body {
   }
 
   .about_img {
-    width: 89%;
-    padding-right: 6px;
-    padding-bottom: 13px;
+    width: 90%;
+    height: 45%;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-top: 36px;
+    margin-right: 0px;
   }
 
   .our_friends_wrapper {
@@ -989,9 +1015,9 @@ body {
   }
 
   .donation_dog {
-    width: 86%;
-    height: 32%;
-    padding-bottom: 43px;
+    width: 87%;
+    height: 33%;
+    padding-bottom: 42px;
   }
 
   .in_addition_heading {
@@ -1033,12 +1059,13 @@ body {
     height: 809px;
     flex-direction: column;
     align-items: center;
+    padding-top: 10px;
   }
 
   .footer_heading_1 {
     font-size: 25px;
     text-align: center;
-    padding: 0px;
+    padding-bottom: 3px;
   }
 
   .footer_heading_2 {
@@ -1058,26 +1085,29 @@ body {
     height: 232px;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 0px;
+    padding-top: 22px;
   }
 
   .contact_mail {
-    padding-bottom: 3px;
+    padding-bottom: 0px;
   }
   .contact_phone {
     padding: 0px;
   }
 
   .contact_boston {
-    padding-top: 0px;
-    padding-bottom: 2px;
+    padding-top: 19px;
+    padding-bottom: 0px;
   }
 
   .contact_london {
-    padding-top: 0px;
-    padding-bottom: 5px;
+    padding-top: 36px;
+    padding-bottom: 0px;
   }
 
   .footer_img {
+    padding: 0px;
     width: 260px;
     height: 269px;
   }
