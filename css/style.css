@@ -1,11 +1,13 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0px;
   padding: 0px;
@@ -829,7 +831,7 @@ body {
 
 @media screen and (max-width: 767px) {
   
- body.lock {
+ body {
   overflow: hidden;
 }
 
@@ -849,14 +851,18 @@ body {
   }
 
   .nav_menu.active {
-    transform: translateX(-2%);
+    transform: translateX(0%);
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+  scroll-behavior: smooth;
   }
 
   .nav_list {
     display: block;
     height: 100%;
     text-align: center;
-    padding-top: 185px;
+    padding-top: 215px;
   }
 
   .nav_link,
@@ -878,7 +884,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    z-index: 3;
+    z-index: 2;
     transition: 2s;
   }
 
